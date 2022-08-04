@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+.images-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.image-modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 7vh;
+}
+span{
+  margin-top: 5px;
+}
+.title{
+  font-size: 30px;
+  margin-top: 15px;
+}
+input{
+  margin: 5px 5px 5px 5px;
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  background: none;
+}
+::placeholder { 
+  color: black;
+  opacity: 1; 
+}
+input:focus{
+  outline: none;
+}
